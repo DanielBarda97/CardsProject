@@ -1,0 +1,303 @@
+[{
+  "_id": {
+    "$oid": "607ec21709f7b6459cd95da7"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T11:58:32.499Z"
+  },
+  "bizName": "Trump tower 6",
+  "bizDescription": "Tower from fake gold",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607eb6f70931002e08af30df",
+  "bizNumber": 187656,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607ec21b09f7b6459cd95da8"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T11:58:32.499Z"
+  },
+  "bizName": "Trump tower 8",
+  "bizDescription": "Tower from fake gold",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607eb6f70931002e08af30df",
+  "bizNumber": 92196,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607eb8bf0931002e08af30e0"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T11:10:58.269Z"
+  },
+  "bizName": "Trump silver tower",
+  "bizDescription": "Tower from fake silver",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607e73881f75122640f05a0f",
+  "bizNumber": 698728,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60816fc9118d19386c81ba9c"
+  },
+  "createdAt": {
+    "$date": "2021-04-22T10:18:41.327Z"
+  },
+  "bizName": "Mishel water ski",
+  "bizDescription": "Fun ski water with Moshel!",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "999992231",
+  "user_id": "607e73881f75122640f05a0f",
+  "bizNumber": 299886,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60812217c661f80f50a0888e"
+  },
+  "createdAt": {
+    "$date": "2021-04-22T07:11:38.451Z"
+  },
+  "bizName": "Obama water ski",
+  "bizDescription": "Fun ski water with obama!",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "999992231",
+  "user_id": "607e73881f75122640f05a0f",
+  "bizNumber": 353605,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608513e8be1de93fe000230b"
+  },
+  "createdAt": {
+    "$date": "2021-04-25T06:13:56.890Z"
+  },
+  "bizName": "koko apple 3333",
+  "bizDescription": "the best apple",
+  "bizAddress": "eilat beach next to monkeys",
+  "bizPhone": "999999",
+  "user_id": "607e73881f75122640f05a0f",
+  "bizNumber": 589154,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bca8b6588d4f17c82a4446"
+  },
+  "createdAt": {
+    "$date": "2021-06-06T10:23:49.748Z"
+  },
+  "bizName": "Pizza Hut",
+  "bizDescription": "123",
+  "bizAddress": "Or Aqiva Orot Mall",
+  "bizPhone": "+9721700506070",
+  "bizImage": "https://images1.ynet.co.il/PicServer5/2017/11/21/8166727/PizzaHut_17-1.jpg",
+  "user_id": "60b34df7811e1d1e8c9c0abc",
+  "bizNumber": 36044,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607ec2bf09f7b6459cd95da9"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T11:58:32.499Z"
+  },
+  "bizName": "Trump tower 999",
+  "bizDescription": "Tower from fake gold",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607eb6f70931002e08af30df",
+  "bizNumber": 132512,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60851405be1de93fe000230c"
+  },
+  "createdAt": {
+    "$date": "2021-04-25T06:13:56.890Z"
+  },
+  "bizName": "koko apple 77777",
+  "bizDescription": "the best apple",
+  "bizAddress": "eilat beach next to monkeys",
+  "bizPhone": "999999",
+  "user_id": "607e73881f75122640f05a0f",
+  "bizNumber": 414366,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607eab7e6da66640144b8e65"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T10:20:36.670Z"
+  },
+  "bizName": "Hacker u",
+  "bizDescription": "High tech college",
+  "bizAddress": "shoam 5 ramatgan",
+  "bizPhone": "99999",
+  "user_id": "607e73881f75122640f05a0f",
+  "__v": 0,
+  "bizImage": "https://media.licdn.com/dms/image/C561BAQEXK9p-DnltoQ/company-background_10000/0?e=2159024400&v=beta&t=74OM3BBNsdv8foqWPgYFJVhOQRL_Ap6yRQz1-Ty6cbw",
+  "bizNumber": 123
+},{
+  "_id": {
+    "$oid": "607eb0d66e30531810b48014"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T10:45:28.663Z"
+  },
+  "bizName": "Trump silver tower",
+  "bizDescription": "Tower from fake silver",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607e73881f75122640f05a0f",
+  "bizNumber": 72458,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607ec32209f7b6459cd95daa"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T11:58:32.499Z"
+  },
+  "bizName": "Empire state",
+  "bizDescription": "Tower in new york",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607eb6f70931002e08af30df",
+  "bizNumber": 21060,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "608513a2be1de93fe0002308"
+  },
+  "createdAt": {
+    "$date": "2021-04-25T06:13:56.890Z"
+  },
+  "bizName": "koko apple",
+  "bizDescription": "the best apple 2222",
+  "bizAddress": "eilat beach next to monkeys",
+  "bizPhone": "999999",
+  "user_id": "607e73881f75122640f05a0f",
+  "bizNumber": 486441,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bc8fe68188db2ce8447dda"
+  },
+  "createdAt": {
+    "$date": "2021-06-06T08:47:36.371Z"
+  },
+  "bizName": "Pizza Hut",
+  "bizDescription": "Pizza Hut",
+  "bizAddress": "Or Aqiva Orot Mall",
+  "bizPhone": "+9721700506070",
+  "bizImage": "https://images1.ynet.co.il/PicServer5/2017/11/21/8166727/PizzaHut_17-1.jpg",
+  "user_id": "60b34df7811e1d1e8c9c0abc",
+  "bizNumber": 507060,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607ec21309f7b6459cd95da6"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T11:58:32.499Z"
+  },
+  "bizName": "Trump tower 2",
+  "bizDescription": "Tower from fake gold",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607eb6f70931002e08af30df",
+  "bizNumber": 789062,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607ec33c09f7b6459cd95dab"
+  },
+  "createdAt": {
+    "$date": "2021-04-20T11:58:32.499Z"
+  },
+  "bizName": "Pizza koko",
+  "bizDescription": "The best pizza store ever",
+  "bizAddress": "New york somewhere",
+  "bizPhone": "99999",
+  "user_id": "607eb6f70931002e08af30df",
+  "bizNumber": 624873,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bcbc74472a6012a8e40c5f"
+  },
+  "createdAt": {
+    "$date": "2021-06-06T12:10:59.858Z"
+  },
+  "bizName": "Dog Walker",
+  "bizDescription": "Dog Walker Dog Walker Dog Walker Dog Walker Dog Walker Dog Walker Dog Walker!",
+  "bizAddress": "Tel Aviv",
+  "bizPhone": "+972536458",
+  "bizImage": "https://dailygazette.com/wp-content/uploads/2019/05/190521b.jpg",
+  "user_id": "60b34df7811e1d1e8c9c0abc",
+  "bizNumber": 99655,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf0d3b20c2062168da9796"
+  },
+  "createdAt": {
+    "$date": "2021-06-08T06:10:42.125Z"
+  },
+  "bizName": "Fintech Corp",
+  "bizDescription": "We create the future of tomorrow",
+  "bizAddress": "Atlas city",
+  "bizPhone": "000123",
+  "bizImage": "https://www.vapulus.com/en/wp-content/uploads/2021/01/Fintech-Susan-Hayes-Culleton-CFA-890x395_c.jpg",
+  "user_id": "60b37d01a4e6dd20c0181774",
+  "bizNumber": 572429,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf101420c2062168da9797"
+  },
+  "createdAt": {
+    "$date": "2021-06-08T06:10:42.125Z"
+  },
+  "bizName": "Netflix",
+  "bizDescription": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more.",
+  "bizAddress": "scotts valley california",
+  "bizPhone": "000111",
+  "bizImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIWSjG57UBe3DaESvB-6bqzAKp90WoREkfGP7qS-lee0x73grlZHzqdrpxnK87_2XpcQ&usqp=CAU",
+  "user_id": "60b37d01a4e6dd20c0181774",
+  "bizNumber": 475996,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf175480261e0ad090b786"
+  },
+  "createdAt": {
+    "$date": "2021-06-08T06:52:43.278Z"
+  },
+  "bizName": "Heroku",
+  "bizDescription": "1st-class Docker Support. Workflows delivers full configurability. Language-Agnostic. Support from Engineers. Linux, Windows & macOS. Toolchain-Agnostic. 24/7/365 Support. SOC 2 Type II-Compliant. Custom CPU, GPU & Memory. Notifications. Customizable Pipelines.\n",
+  "bizAddress": "san francisco california, usa",
+  "bizPhone": "111222",
+  "bizImage": "https://logz.io/wp-content/uploads/2016/04/heroku-logo-1024x538-1-1024x538.png",
+  "user_id": "60b37d01a4e6dd20c0181774",
+  "bizNumber": 122031,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60bf1ca798771f410cb0f8f6"
+  },
+  "createdAt": {
+    "$date": "2021-06-08T07:26:29.888Z"
+  },
+  "bizName": "IBM",
+  "bizDescription": "For more than a century IBM has been dedicated to every client&#039;s success and to creating innovations that matter for the world",
+  "bizAddress": "New York, USA",
+  "bizPhone": "1111",
+  "bizImage": "https://opportunitywow.com/wp-content/uploads/2021/03/ibm-research-africa-postdoctoral-fellowship-2021-for-south-africans.jpg",
+  "user_id": "60b37d01a4e6dd20c0181774",
+  "bizNumber": 465756,
+  "__v": 0
+}]
