@@ -2,27 +2,27 @@ import axios from "axios"
 
 // שנעלה לשרת יתחליף לכתובת של השרת
 // שנעלה לשרת יתחליף לכתובת של השרת
-let myApi = "http://localhost:3400"
+let myApi = "http://localhost:3400";
 // אם בכתובת למעלה לא מזהה שהריאקט עובד מהלוקאל משנה את הכתובת
 // איי פי איי לשרת הירקו במקרה שלנו
-if (!window.location.href.includes("localhost:")) {
-  let myApi = "https://cards-2040.herokuapp.com/"
+if(!window.location.href.includes("localhost:")){
+ let myApi = "https://cards-2040.herokuapp.com";
 }
 
-export const API_URL = myApi
+export const API_URL = myApi;
 
 // export const API_URL = "https://ynet.co.il";
 // קבוע שמחזיר כמה פריטים יהיו פר פייג
-export const PER_PAGE = 5
+export const PER_PAGE = 5;
 
 export const doApiGet = async (_url) => {
   try {
-    let resp = await axios.get(_url)
+    let resp = await axios.get(_url);
     console.log(resp)
-    return resp.data
+    return resp.data;
   } catch (err) {
     console.log(err)
-    throw err
+    throw err;
   }
 }
 
@@ -33,15 +33,16 @@ export const doApiMethod = async (_url, _method, _bodyData) => {
       url: _url,
       data: _bodyData,
       headers: {
-        "content-type": "application/json",
-        "x-auth-token": localStorage["tok"],
-      },
+        'content-type': "application/json",
+        "x-auth-token": localStorage["tok"]
+      }
     })
-    return resp.data
-  } catch (err) {
-    console.log(err)
-    // אם יש טעות גם הפרומיס שמאזין יריץ
+    return resp.data;
+  }
+  catch (err) {
+    console.log(err );
+    // אם יש טעות גם הפרומיס שמאזין יריץ 
     // את ה ERR
-    throw err
+    throw err;
   }
 }
