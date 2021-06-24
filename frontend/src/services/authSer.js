@@ -1,22 +1,19 @@
 import { API_URL, doApiMethod } from "./apiSer"
 
 // check if regular user and have token
-export const checkIfUser = async() => {
+export const checkIfUser = async () => {
   // check if there localstorage
-  if(!localStorage["tok"]){
-    return {err:"No token in localstorage"}
+  if (!localStorage["tok"]) {
+    return { err: "No token in localstorage" }
     // window.location.href = "/login";
   }
-  try{
+  try {
     // check if token valid in nodejs
-    let url = API_URL+"/users/authUser";
-    let data = await doApiMethod(url,"GET");
-           // אם הכל בסדר אנחנו אמורים
-            // לקבל מאפיין סטטוס
-    return data;
-  }
-  catch(err){
-    console.log(err);
-    return err;
+    let url = API_URL + "/users/authUser"
+    let data = await doApiMethod(url, "GET")
+    return data
+  } catch (err) {
+    console.log(err)
+    return err
   }
 }

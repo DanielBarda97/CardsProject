@@ -1,33 +1,32 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { toast } from 'react-toastify';
-import { API_URL, doApiMethod } from '../../services/apiSer';
-import PageHeader from '../common/pageHeader';
+import React, { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
+import { toast } from "react-toastify"
+import { API_URL, doApiMethod } from "../../services/apiSer"
+import PageHeader from "../common/pageHeader"
 
 function MyCards(props) {
   let [ar, setAr] = useState([])
 
-  // לבצע בקשת API 
   useEffect(() => {
-    doApi();
+    doApi()
   }, [props.location])
 
   const doApi = async () => {
-    let url = API_URL + "/cards/userCardsAdded?perPage=999";
-    let data = await doApiMethod(url, "GET");
+    let url = API_URL + "/cards/userCardsAdded?perPage=999"
+    let data = await doApiMethod(url, "GET")
 
-    console.log(data);
-    data.reverse();
-    setAr(data);
+    console.log(data)
+    data.reverse()
+    setAr(data)
   }
 
-  const delCard = async(_id) => {
-    if(window.confirm("Are you sure you want to del?")){
-      let url = API_URL+ "/cards/"+_id;
-      let data = await doApiMethod(url,"DELETE");
-      if(data.n == 1){
-        doApi();
-        toast.info("Card deleted forever!!!!!!");
+  const delCard = async (_id) => {
+    if (window.confirm("Are you sure you want to del?")) {
+      let url = API_URL + "/cards/" + _id
+      let data = await doApiMethod(url, "DELETE")
+      if (data.n == 1) {
+        doApi()
+        toast.info("Card deleted forever!!!!!!")
       }
     }
   }
@@ -35,7 +34,9 @@ function MyCards(props) {
   return (
     <div className="container">
       <PageHeader title="Biz cards you added before:" />
-      <Link className="btn btn-success" to="/addCard">Add new biz card</Link>
+      <Link className="btn btn-success" to="/addCard">
+        Add new biz card
+      </Link>
       <div className="table-responsive">
         <table className="table table-striped">
           <thead>
@@ -46,32 +47,34 @@ function MyCards(props) {
               <th>Address</th>
               <th>Phone</th>
               <th>edit/del</th>
-
             </tr>
           </thead>
           <tbody>
             {ar.map((item, i) => {
               return (
                 <tr key={item._id}>
-                  <td>{i+1}</td>
+                  <td>{i + 1}</td>
                   <td>{item.bizName}</td>
-                  <td>{item.bizDescription.substr(0,40)}...</td>
+                  <td>{item.bizDescription.substr(0, 40)}...</td>
                   <td>{item.bizAddress}</td>
                   <td>{item.bizPhone}</td>
                   <td>
-                    {/* כפתור עריכה
-                    ייקח למיקום הנכון */}
-                    <Link to={"/editCard/"+item._id}>
+                    <Link to={"/editCard/" + item._id}>
                       <button>edit</button>
                     </Link>
-                    <button onClick={() => {
-                      delCard(item._id);
-                    }} className="ms-2" style={{ background: "pink" }}>del</button>
+                    <button
+                      onClick={() => {
+                        delCard(item._id)
+                      }}
+                      className="ms-2"
+                      style={{ background: "pink" }}
+                    >
+                      del
+                    </button>
                   </td>
                 </tr>
               )
             })}
-
           </tbody>
         </table>
       </div>
@@ -80,4 +83,3 @@ function MyCards(props) {
 }
 
 export default MyCards
-
